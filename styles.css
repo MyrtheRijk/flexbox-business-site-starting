@@ -1,0 +1,123 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(232, 253, 253);
+}
+
+/* navigation */
+.link-container {
+    display: flex;
+    background-color: rgb(109, 168, 5);
+}
+
+.links {
+    align-items: center;
+    margin: auto;
+}
+
+a:link {
+    text-decoration: none;
+    color:rgb(232, 253, 253);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.links li {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 140px;
+}
+
+/* logo */
+.logo-container {
+    display: flex;
+    background-color: rgb(60, 115, 62);
+}
+
+.travel-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+}
+
+/* video */
+.video {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.video h2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+/* main */
+main {
+    background-color: rgb(2, 27, 2);
+}
+
+/* Travel possibilities */
+.travel-pictures {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+}
+
+.travel-pictures figure {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.pictures img {
+    object-fit: cover;
+    height: 500px;
+    min-width: 150px;
+    max-width: 300px;
+}
+
+/* Employees */
+.employee-container {
+    text-align: center;
+    align-items: center;
+}
+
+.employee-pictures {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+}
+
+.employee-container h2 {
+    font-size: 50px;
+}
+
+.employee-pictures figure {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.employee-pictures figure img {
+    min-width: 150px;
+    max-width: 300px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    background-color: black;
+    padding: 20px 0px 10px 30px;
+    text-align: center;
+    margin: auto;
+}
+
+footer h3 {
+    justify-content: baseline;
+}
